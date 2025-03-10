@@ -1,0 +1,17 @@
+{
+    "name": "buggy-nation",
+    "version": "1.0.0",
+    "description": "Buggy Nation website",
+    "main": "node.js",
+    "scripts": {
+      "start": "node node.js"
+    },
+    "dependencies": {
+      "http": "^0.0.1-security"
+    },
+    "engines": {
+      "node": "14.x"
+    },
+    "author": "Your Name",
+    "license": "ISC"
+  }

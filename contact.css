@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(168, 166, 166);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 50px;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: rgb(136, 133, 133);
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 11px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contacts {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.suggestion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    color: black;
+    padding: 40px;
+    margin: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion input, .suggestion textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.suggestion button {
+    color: white;
+    background-color: rgb(150, 113, 113);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.suggestion button:hover {
+    color: black;
+    background-color: rgb(200, 150, 150);
+}
+
+.buy-me-coffee {
+    text-align: center;
+    margin: 40px 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: rgb(136, 133, 133);
+}
